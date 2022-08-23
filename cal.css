@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: purple;
+  text-align: center;
+}
+
+.calculator {
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 3px solid lightblue;
+
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.numpad {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  
+}
+
+.calc-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px
+}
+
+input[type="button"] {
+  width: 30px;
+  padding: 10px;
+}
